@@ -1,0 +1,22 @@
+"DOTAItems"
+{
+    // =========================================================
+    // 自定义物品定义骨架
+    // 注意：自定义物品 ID 使用 90000+ 范围
+    // =========================================================
+
+    // 数据碎片（进化材料，全队共享）
+    "item_data_shard"
+    {
+        "ID"                "90001"
+        "BaseClass"         "item_datadriven"
+        "AbilityBehavior"   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+        "ItemCost"          "0"
+        "ItemShopTags"      ""
+        "ItemQuality"       "artifact"
+        "ItemAliases"       "data shard;数据碎片"
+        "ItemDeclarations"  "DECLARE_PURCHASES_TO_TEAMMATES"
+        "ItemShareability"  "ITEM_FULLY_SHAREABLE"
+        // TODO: 添加图标和描述
+    }
+}

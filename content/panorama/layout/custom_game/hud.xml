@@ -1,0 +1,34 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/hud.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/hud.js" />
+    </scripts>
+
+    <!-- 根面板：不能有 id 属性 -->
+    <Panel class="hud-root">
+
+        <!-- 顶部状态栏 -->
+        <Panel class="hud-topbar">
+            <!-- 波次信息 -->
+            <Panel class="hud-wave-panel">
+                <Label class="hud-label-title" text="#digimon_td_wave" />
+                <Label class="hud-wave-value" id="LabelWave" text="0 / 40" />
+            </Panel>
+
+            <!-- 生命值 -->
+            <Panel class="hud-lives-panel">
+                <Label class="hud-label-title" text="#digimon_td_lives" />
+                <Label class="hud-lives-value" id="LabelLives" text="10" />
+            </Panel>
+
+            <!-- 数据碎片（全队共享）-->
+            <Panel class="hud-shards-panel">
+                <Label class="hud-label-title" text="#digimon_td_shards" />
+                <Label class="hud-shards-value" id="LabelShards" text="0" />
+            </Panel>
+        </Panel>
+
+    </Panel>
+</root>

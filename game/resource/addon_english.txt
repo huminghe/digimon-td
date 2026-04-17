@@ -1,0 +1,136 @@
+"lang"
+{
+    "Language"  "English"
+    "Tokens"
+    {
+        // 游戏名称
+        "addon_game_name"               "数码守护者"
+
+        // 数码宝贝名称
+        "npc_digimon_agumon"            "亚古兽"
+        "npc_digimon_gabumon"           "加布兽"
+        "npc_digimon_biyomon"           "比丘兽"
+        "npc_digimon_tentomon"          "甲虫兽"
+        "npc_digimon_palmon"            "巴鲁兽"
+        "npc_digimon_gomamon"           "哥玛兽"
+        "npc_digimon_patamon"           "巴达兽"
+        "npc_digimon_gatomon"           "迪路兽"
+
+        // 技能名称
+        "DOTA_Tooltip_ability_digimon_agumon_skill1"        "小火焰"
+        "DOTA_Tooltip_ability_digimon_agumon_skill1_desc"   "向目标喷射火焰，造成伤害。"
+        "DOTA_Tooltip_ability_digimon_agumon_aura"          "火焰光环"
+        "DOTA_Tooltip_ability_digimon_agumon_aura_desc"     "提升周围友方数码宝贝的攻击速度。"
+
+        // 物品名称
+        "DOTA_Tooltip_item_data_shard"          "数据碎片"
+        "DOTA_Tooltip_item_data_shard_desc"     "从Boss身上掉落的进化材料，全队共享。用于建造和进化数码宝贝。"
+
+        // 亚古兽技能
+        "DOTA_Tooltip_ability_digimon_agumon_skill1"            "小火焰"
+        "DOTA_Tooltip_ability_digimon_agumon_skill1_Description" "向目标喷射火球，造成魔法伤害。"
+        "DOTA_Tooltip_ability_digimon_agumon_skill1_damage"     "伤害: %d1"
+
+        "DOTA_Tooltip_ability_digimon_agumon_skill2"            "灼烧爪"
+        "DOTA_Tooltip_ability_digimon_agumon_skill2_Description" "普通攻击附带燃烧效果，持续造成魔法伤害。"
+        "DOTA_Tooltip_ability_digimon_agumon_skill2_burn_damage" "每秒伤害: %d1"
+
+        "DOTA_Tooltip_ability_digimon_agumon_skill3"            "勇气光环"
+        "DOTA_Tooltip_ability_digimon_agumon_skill3_Description" "提升周围友方数码宝贝的攻击速度。"
+        "DOTA_Tooltip_ability_digimon_agumon_skill3_attack_speed_bonus" "攻击速度: +%d2"
+
+        "DOTA_Tooltip_ability_digimon_agumon_ult"               "胡椒火焰"
+        "DOTA_Tooltip_ability_digimon_agumon_ult_Description"   "向前方喷射锥形火焰，命中路线上多个敌人并附带燃烧。"
+        "DOTA_Tooltip_ability_digimon_agumon_ult_damage"        "伤害: %d1"
+
+        // 升级提示
+        "digimon_td_levelup"            "升级（消耗 %d1 金币）"
+        "digimon_td_skill_point"        "技能点: %d1"
+        "digimon_td_max_level"          "已达最高等级"
+        "digimon_td_skill_locked"       "需要 %d1 级解锁"
+        "digimon_td_evolve"             "进化"
+        "digimon_td_evolve_need_level"  "需要 15 级才能进化"
+        "digimon_td_evolve_need_shards" "碎片不足（需要 %d1）"
+
+        // 亚古兽系单位名
+        "npc_digimon_greymon"           "暴龙兽"
+        "npc_digimon_metalgreymon"      "机械暴龙兽"
+        "npc_digimon_skullgreymon"      "丧尸暴龙兽"
+        "npc_digimon_wargreymon"        "战斗暴龙兽"
+        "npc_digimon_metalseadramon"    "电光暴龙兽"
+
+        // 暴龙兽技能
+        "DOTA_Tooltip_ability_digimon_greymon_skill1"               "大火焰"
+        "DOTA_Tooltip_ability_digimon_greymon_skill1_Description"   "发射大型火球，对单体造成高额魔法伤害。"
+        "DOTA_Tooltip_ability_digimon_greymon_skill2"               "恐吓咆哮"
+        "DOTA_Tooltip_ability_digimon_greymon_skill2_Description"   "对范围内敌人施加减速并降低护甲。"
+        "DOTA_Tooltip_ability_digimon_greymon_ult"                  "暴龙火焰"
+        "DOTA_Tooltip_ability_digimon_greymon_ult_Description"      "对目标区域造成大范围火焰伤害并附带燃烧。"
+
+        // 机械暴龙兽技能
+        "DOTA_Tooltip_ability_digimon_metalgreymon_skill1"          "超级进化火焰"
+        "DOTA_Tooltip_ability_digimon_metalgreymon_skill1_Description" "发射追踪导弹，造成物理+魔法混合伤害。"
+        "DOTA_Tooltip_ability_digimon_metalgreymon_skill2"          "机械爪击"
+        "DOTA_Tooltip_ability_digimon_metalgreymon_skill2_Description" "普攻附带可叠加减甲效果（最多5层）。"
+        "DOTA_Tooltip_ability_digimon_metalgreymon_ult"             "吉格拉火焰"
+        "DOTA_Tooltip_ability_digimon_metalgreymon_ult_Description" "召唤能量炮，对直线上所有敌人造成巨额伤害。"
+
+        // 丧尸暴龙兽技能
+        "DOTA_Tooltip_ability_digimon_skullgreymon_skill1"          "机械鲨鱼弹"
+        "DOTA_Tooltip_ability_digimon_skullgreymon_skill1_Description" "发射穿透导弹，命中直线上多个敌人。"
+        "DOTA_Tooltip_ability_digimon_skullgreymon_skill2"          "腐蚀毒液"
+        "DOTA_Tooltip_ability_digimon_skullgreymon_skill2_Description" "普攻附带强力中毒，降低移速和护甲。"
+        "DOTA_Tooltip_ability_digimon_skullgreymon_ult"             "死亡爆破"
+        "DOTA_Tooltip_ability_digimon_skullgreymon_ult_Description" "对大范围敌人造成极高伤害，自身短暂无敌。"
+
+        // 战斗暴龙兽技能
+        "DOTA_Tooltip_ability_digimon_wargreymon_skill1"            "德拉蒙破坏者"
+        "DOTA_Tooltip_ability_digimon_wargreymon_skill1_Description" "发射超高温火焰，造成极高魔法伤害并附加燃烧。"
+        "DOTA_Tooltip_ability_digimon_wargreymon_skill2"            "战斗之盾"
+        "DOTA_Tooltip_ability_digimon_wargreymon_skill2_Description" "为自身附加护盾，同时对周围敌人造成反弹伤害。"
+        "DOTA_Tooltip_ability_digimon_wargreymon_ult"               "终极火焰"
+        "DOTA_Tooltip_ability_digimon_wargreymon_ult_Description"   "向前方喷射锥形超级火焰，对所有敌人造成毁灭性伤害。"
+
+        // 电光暴龙兽技能
+        "DOTA_Tooltip_ability_digimon_metalseadramon_skill1"        "电光冲击"
+        "DOTA_Tooltip_ability_digimon_metalseadramon_skill1_Description" "发射电光弹，造成高额魔法伤害并有概率麻痹。"
+        "DOTA_Tooltip_ability_digimon_metalseadramon_skill2"        "电磁风暴"
+        "DOTA_Tooltip_ability_digimon_metalseadramon_skill2_Description" "对范围内敌人造成持续电击伤害并减速。"
+        "DOTA_Tooltip_ability_digimon_metalseadramon_ult"           "闪电暴龙炮"
+        "DOTA_Tooltip_ability_digimon_metalseadramon_ult_Description" "召唤超级闪电，对多个敌人造成连锁电击伤害。"
+
+        // 放置/操作提示
+        "digimon_td_place_digimon"      "放置数码宝贝"
+        "digimon_td_remove_digimon"     "移除数码宝贝（退还50%碎片）"
+        "digimon_td_move_digimon"       "移动数码宝贝（消耗%d1金币）"
+        "digimon_td_slot_occupied"      "该格子已被占用"
+        "digimon_td_not_enough_shards"  "数据碎片不足"
+        "digimon_td_not_enough_gold"    "金币不足"
+
+        // 敌人单位名称
+        "npc_enemy_basic"               "数码病毒"
+        "npc_enemy_fast"                "幽灵数据"
+        "npc_enemy_armored"             "铁甲数码兽"
+        "npc_enemy_magic"               "魔法数码兽"
+
+        // Boss 名称
+        "npc_boss_darktyranomon"        "暗黑暴龙兽"
+        "npc_boss_skullgarurumon"       "骷髅加鲁鲁兽"
+        "npc_boss_myotismon"            "魔界兽"
+        "npc_boss_devimon"              "暗黑天使兽"
+        "npc_boss_myotismon2"           "吸血魔兽"
+        "npc_boss_metalseadramon"       "机械海龙兽"
+        "npc_boss_darkwargreymon"       "暗黑战斗暴龙兽"
+        "npc_boss_apocalymon"           "究极暗黑兽"
+
+        // UI 文本
+        "digimon_td_lives"              "生命值"
+        "digimon_td_wave"               "波次"
+        "digimon_td_shards"             "数据碎片"
+        "digimon_td_gold"               "金币"
+        "digimon_td_wave_start"         "第 %d1 波开始！"
+        "digimon_td_boss_incoming"      "Boss 来袭！"
+        "digimon_td_victory"            "守护成功！数码世界得救了！"
+        "digimon_td_defeat"             "防线崩溃！数码世界陷落了！"
+    }
+}

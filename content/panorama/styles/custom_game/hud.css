@@ -1,0 +1,57 @@
+/* 数码守护者 HUD 样式 */
+
+/* 根面板：必须 100% 宽高 */
+.hud-root {
+    width: 100%;
+    height: 100%;
+}
+
+/* 顶部状态栏 */
+.hud-topbar {
+    width: 100%;
+    height: 60px;
+    flow-children: right;
+    horizontal-align: center;
+    vertical-align: top;
+    margin-top: 10px;
+    background-color: gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,180)), to(rgba(0,0,0,0)));
+}
+
+/* 各信息面板 */
+.hud-wave-panel,
+.hud-lives-panel,
+.hud-shards-panel {
+    flow-children: down;
+    horizontal-align: center;
+    vertical-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 6px 12px;
+    background-color: rgba(0, 0, 0, 120);
+    border-radius: 4px;
+}
+
+/* 标题标签 */
+.hud-label-title {
+    font-size: 11px;
+    color: rgba(180, 180, 180, 255);
+    text-align: center;
+}
+
+/* 数值标签 */
+.hud-wave-value,
+.hud-lives-value,
+.hud-shards-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 220, 80, 255);
+    text-align: center;
+}
+
+.hud-lives-value {
+    color: rgba(80, 220, 80, 255);
+}
+
+.hud-shards-value {
+    color: rgba(100, 180, 255, 255);
+}

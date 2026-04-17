@@ -1,0 +1,9 @@
+"AddonGameMode"
+{
+    "IsPlayable"        "1"
+    "MaxPlayers"        "4"
+    "GameMode"          "0"
+    "MapName"           "digimon_td"
+    "GameName"          "数码守护者"
+    "GameDescription"   "PvE 合作塔防 — 用数码宝贝守护数码世界"
+}
